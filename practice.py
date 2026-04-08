@@ -7,3 +7,5 @@ if name == "Yoko":
 
 for i in range(3):
     print("回数：", i)
+
+print("Finish Python")
