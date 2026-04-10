@@ -2,11 +2,10 @@
 Python の学習用リポジトリです。
 
 ## 概要
-practiveA.py を使って、引数・条件分岐・繰り返し処理を学習
+コマンドライン引数を利用した、条件分岐と繰り返し処理の学習用プログラムです。
 
 ## 機能
-- hello.py：簡単な出力プログラム
-- practiveA.py：学習課題（if文）
+- practiceA.py
     - 名前を引数で受け取る
     - 名前によってメッセージを変える
     - 回数を引数で指定して繰り返し表示する  
@@ -16,4 +15,4 @@ practiveA.py を使って、引数・条件分岐・繰り返し処理を学習
 
 ```bash
 python3 hello.py
-python3 practiveA.py <任意の名前> <回数>
+python3 practiceA.py <任意の名前> <回数>
