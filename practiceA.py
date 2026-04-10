@@ -16,8 +16,12 @@ else:
     else:
         print(f"はじめまして{name}さん")
 
-# 0〜4の範囲で繰り返す
-for i in range(5):
+# 二つ目の引数があればその値をなければ3を count とする
+count = int(args[2]) if len(args) > 2 else 3
+
+
+# 回数(count)だけ繰り返す
+for i in range(count):
     # 偶数のときだけ表示する
     if i % 2 == 0:
         print("回数:", i)
