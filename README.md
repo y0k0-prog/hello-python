@@ -16,3 +16,7 @@ Python の学習用リポジトリです。
 ```bash
 python3 hello.py
 python3 practiceA.py <任意の名前> <回数>
+```
+
+## 学習メモ
+Git の branch と merge を学習中です
